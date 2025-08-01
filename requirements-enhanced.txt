@@ -1,0 +1,77 @@
+# Enhanced AURA AI Trading Bot Requirements
+# Optimized for day trading with ML-driven decisions
+
+# Core ML and Data Processing
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0,<2.0.0
+torch>=1.9.0,<2.0.0
+scikit-learn>=1.0.0,<2.0.0
+scipy>=1.7.0,<2.0.0
+
+# Enhanced Data Processing
+ta>=0.10.0,<1.0.0
+yfinance>=0.1.70,<1.0.0
+python-binance>=1.0.15,<2.0.0
+ccxt>=2.0.0,<3.0.0
+
+# Database (TimescaleDB)
+psycopg2-binary>=2.9.0,<3.0.0
+sqlalchemy>=1.4.0,<2.0.0
+asyncpg>=0.25.0,<1.0.0
+
+# Monitoring and Metrics
+prometheus-client>=0.14.0,<1.0.0
+grafana-api>=1.0.0,<2.0.0
+psutil>=5.8.0,<6.0.0
+
+# WebSocket and Networking
+websocket-client>=1.2.0,<2.0.0
+aiohttp>=3.8.0,<4.0.0
+requests>=2.25.0,<3.0.0
+
+# Configuration and Environment
+python-dotenv>=0.19.0,<1.0.0
+jsonschema>=4.0.0,<5.0.0
+pydantic>=1.8.0,<2.0.0
+click>=8.0.0,<9.0.0
+
+# Time and Scheduling
+pytz>=2021.3,<2024.0
+schedule>=1.1.0,<2.0.0
+pandas-market-calendars>=3.2,<4.0.0
+
+# Broker Integrations
+alpaca-trade-api>=2.3.0,<3.0.0
+kiteconnect>=4.0.0,<5.0.0
+
+# RL and Advanced ML
+gymnasium>=0.26.0,<1.0.0
+stable-baselines3>=1.6.0,<2.0.0
+optuna>=3.0.0,<4.0.0
+
+# Notifications
+python-telegram-bot>=13.0.0,<14.0.0
+
+# Logging and Monitoring
+structlog>=21.0.0,<23.0.0
+
+# Visualization and Analysis
+matplotlib>=3.5.0,<4.0.0
+seaborn>=0.11.0,<1.0.0
+plotly>=5.0.0,<6.0.0
+
+# Utilities
+tqdm>=4.62.0,<5.0.0
+joblib>=1.1.0,<2.0.0
+
+# Development and Testing
+pytest>=6.2.0,<8.0.0
+pytest-cov>=3.0.0,<5.0.0
+black>=22.0.0,<24.0.0
+flake8>=4.0.0,<6.0.0
+mypy>=0.950,<2.0.0
+pre-commit>=2.15.0,<4.0.0
+
+# Performance
+numba>=0.56.0,<1.0.0
+cython>=0.29.0,<1.0.0

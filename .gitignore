@@ -1,0 +1,21 @@
+# Ignore Virtual Environments
+venv/
+.venv/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore sensitive configuration files
+config/api_keys.json
+
+# Ignore log files
+*.log
+
+# Ignore data files
+data/trades.db
+data/strategy_performance.csv

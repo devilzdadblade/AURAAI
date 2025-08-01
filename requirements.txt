@@ -1,0 +1,73 @@
+# Core ML and Data Processing
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0,<2.0.0
+torch>=1.9.0,<2.0.0
+scikit-learn>=1.0.0,<2.0.0
+scipy>=1.7.0,<2.0.0
+
+# For data fetching
+yfinance>=0.1.70,<1.0.0
+python-binance>=1.0.15,<2.0.0
+
+# For environment variables
+python-dotenv>=0.19.0,<1.0.0
+
+# For configuration validation
+jsonschema>=4.0.0,<5.0.0
+pydantic>=1.8.0,<2.0.0
+
+# For encryption and security
+cryptography>=3.4.0,<42.0.0
+
+# For market hours check
+pytz>=2021.3,<2024.0
+
+# For Alpaca broker integration
+alpaca-trade-api>=2.3.0,<3.0.0
+
+# For scheduling
+schedule>=1.1.0,<2.0.0
+
+# For market holiday calendars
+pandas-market-calendars>=3.2,<4.0.0
+
+# For Zerodha Kite integration
+kiteconnect>=4.0.0,<5.0.0
+
+# For RL and ML enhancements
+gymnasium>=0.26.0,<1.0.0
+stable-baselines3>=1.6.0,<2.0.0
+
+# For database operations
+sqlalchemy>=1.4.0,<2.0.0
+
+# For networking and websockets
+requests>=2.25.0,<3.0.0
+websocket-client>=1.2.0,<2.0.0
+aiohttp>=3.8.0,<4.0.0
+
+# For notifications
+python-telegram-bot>=13.0.0,<14.0.0
+
+# For logging and monitoring
+structlog>=21.0.0,<23.0.0
+
+# For visualization and analysis
+matplotlib>=3.5.0,<4.0.0
+seaborn>=0.11.0,<1.0.0
+plotly>=5.0.0,<6.0.0
+
+# Hyperparameter optimization
+optuna>=3.0.0,<4.0.0
+
+# Utilities
+tqdm>=4.62.0,<5.0.0
+click>=8.0.0,<9.0.0
+
+# Message Queue Integration
+redis>=4.0.0,<5.0.0
+pika>=1.2.0,<2.0.0
+celery>=5.2.0,<6.0.0
+
+# File system monitoring
+watchdog>=2.1.0,<4.0.0
